@@ -1,0 +1,50 @@
+.product-card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product-prices {
+    font-size: 14px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 5px;
+  }
+  
+  .new-price {
+    color: #e60000;
+    font-weight: bold;
+  }
+  
+  .favorite-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white; /* Default icon color */
+    transition: color 0.3s ease; /* Smooth transition when color changes */
+  }
+  
+  .favorite-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  }
+  
