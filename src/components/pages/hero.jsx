@@ -131,7 +131,6 @@ const Hero = () => {
     <div className="hero">
       <div className="hero-gif image">
         <img src={herogif} alt="Animated Banner" />
-        <h3>hi</h3>
       </div>
 
       {/* New Collection Section */}
